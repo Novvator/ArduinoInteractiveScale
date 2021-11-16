@@ -46,10 +46,10 @@ void setup() {
     Serial.println("Startup is complete");
   }
 
-//initialize pt channels in pins 8,14,15
-  pt.tune_initchan(15);
-  pt.tune_initchan(8);
-  pt.tune_initchan(14);
+//initialize pt channels in pins 2,3,4
+  pt.tune_initchan(2);
+  pt.tune_initchan(3);
+  pt.tune_initchan(4);
   
   
 }
